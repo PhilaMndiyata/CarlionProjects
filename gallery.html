@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="javascript.js"></script>
-    <meta name="description" content="Electrical company that is located in Kwa-Zulu Natal, mainly specializes in Fault finding, Wiring and DB Installation">
-    <meta name="keywords" content="electrical companies, pietermaritzburg electricians, electrician near me, kzn electricians">
-    <meta name="owner" content="S'bonelo Handsome Mzolo">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
-    <title> Our Gallery</title>
+    <meta name="description" content="Electrical company that is located in Kwa-Zulu Natal, mainly specializes in Fault finding, Wiring and DB Installation" />
+    <meta name="keywords" content="electrical companies, pietermaritzburg electricians, electrician near me, kzn electricians" />
+    <meta name="owner" content="S'bonelo Handsome Mzolo" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Our Gallery</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar">
-            <img src="images/Logo.jpg" alt="Card Image" width="60PX" height="60PX">
+            <img src="images/Logo.jpg" alt="Logo" width="60" height="60" />
             <ul class="menu-links">
                 <span id="close-menu-btn" class="material-symbols-outlined">close</span>
                 <li><a href="index.html">Home</a></li>
@@ -32,45 +33,39 @@
     <main>
         <div class="card-list">
             <a href="db installations.html" class="card-item">
-                <img src="images/DB.jpeg" alt="DB Installation Image" style="width: 180px; height:180px;">
+                <img src="images/DB.jpeg" alt="DB Installation" />
                 <span class="developer">DB & Cable installations</span>
-                <h3> Residential & Commercial Projects</h3>
-                <div class="arrow">
-                    <i class="fas fa-arrow-right card-icon"></i>
-                </div>
+                <h3>Residential & Commercial Projects</h3>
+                <div class="arrow"><i class="fas fa-arrow-right card-icon"></i></div>
             </a>
+
             <a href="liberty.html" class="card-item">
-                <img src="images/Picture4.jpg" alt="Wiring Image" style="width: 180px; height:180px">
-                <span class="designer"> Electrical installations & upgrades</span>
-                <h3> Liberty</h3>
-                <div class="arrow">
-                    <i class="fas fa-arrow-right card-icon"></i>
-                </div>
+                <img src="images/Picture4.jpg" alt="Wiring" />
+                <span class="designer">Electrical installations & upgrades</span>
+                <h3>Liberty</h3>
+                <div class="arrow"><i class="fas fa-arrow-right card-icon"></i></div>
             </a>
-            <!-- Updated Amor Grills Card -->
+
             <a href="amor grills.html" class="card-item">
-                <img src="images/Picture5.jpg" alt="Lights Installation Image" style="width: 180px; height:180px">
-                <span class="editor">Lights Installation </span>
-                <h3> Amor Grills Restaurant</h3>
-                <div class="arrow">
-                    <i class="fas fa-arrow-right card-icon"></i>
-                </div>
+                <img src="images/Picture5.jpg" alt="Lights Installation" />
+                <span class="editor">Lights Installation</span>
+                <h3>Amor Grills Restaurant</h3>
+                <div class="arrow"><i class="fas fa-arrow-right card-icon"></i></div>
             </a>
-            <!-- Add more cards for new pictures -->
+
             <a href="house installations.html" class="card-item">
-                <img src="images/Picture8.jpg" alt="Switchboard Installation Image" style="width: 180px; height:180px">
+                <img src="images/Picture8.jpg" alt="Switchboard" />
                 <span class="editor">Lighting installation and design</span>
-                <h3> Residential Services </h3>
-                <div class="arrow">
-                    <i class="fas fa-arrow-right card-icon"></i>
-                </div>
-
-
+                <h3>Residential Services</h3>
+                <div class="arrow"><i class="fas fa-arrow-right card-icon"></i></div>
+            </a>
+        </div>
     </main>
 
     <footer>
         &copy; 2024 Boom Carlion Projects (PTY) LTD. All rights reserved.
     </footer>
+
     <script>
         const header = document.querySelector("header");
         const hamburgerBtn = document.getElementById("hamburger-btn");
@@ -84,7 +79,6 @@
             header.classList.remove("show-mobile-menu");
         });
 
-        // Optional: Close mobile menu when a menu link is clicked
         document.querySelectorAll(".menu-links a").forEach(link => {
             link.addEventListener("click", () => {
                 header.classList.remove("show-mobile-menu");
