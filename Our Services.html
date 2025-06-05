@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Electrical company located in Kwa-Zulu Natal, specializing in fault finding, wiring, and DB installation.">
+    <meta name="keywords" content="electrical companies, Pietermaritzburg electricians, electrician near me, KZN electricians">
+    <meta name="owner" content="S'bonelo Handsome Mzolo">
+    <script src="javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <title>Our Services</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/Logo.jpg" alt="Boom Carlion Projects Logo" width="60" height="60">
+            <br>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="our-services.html">Our Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <p><strong>The Services That We Provide:</strong></p>
+            <p>At Boom Carlion Projects, we offer a wide range of electrical services for residential and commercial clients.</p>
+
+            <p><strong><i>Residential Services</i></strong></p>
+            <ul>
+                <li>Lighting installation and design</li>
+                <li>Home electrical safety inspections</li>
+                <li>Appliance Installation</li>
+                <li>DB Installation</li>
+                <li>House Wiring</li>
+            </ul>
+
+            <p><strong><i>Commercial Services</i></strong></p>
+            <ul>
+                <li>Electrical installations and upgrades</li>
+                <li>Lighting design and installation</li>
+                <li>Electrical code compliance and inspections</li>
+                <li>Energy-efficient solutions</li>
+            </ul>
+
+            <p><br><strong>Get a Quote or Schedule Service:</strong></p>
+            <p>&#128241; Call: +27 72 020 2497</p>
+            <p>&#x1F4E7; Email: <a href="mailto:boomcarlionprojects@gmail.com">boomcarlionprojects@gmail.com</a></p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/boomcarlionprojects619" target="_blank" aria-label="Facebook">
+                    <img src="images/FACEBOOK.png" alt="Facebook" width="30" height="30">
+                </a>
+                <a href="https://wa.me/27720202497" target="_blank" aria-label="WhatsApp">
+                    <img src="images/whatsapp.png" alt="WhatsApp" width="30" height="30">
+                </a>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Boom Carlion Projects (PTY) LTD. All rights reserved.
+    </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        const hamburgerBtn = document.querySelector("#hamburger-btn");
+        const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+</body>
+
+</html>

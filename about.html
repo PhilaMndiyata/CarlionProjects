@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script SRC="javascript.js"></script>
+    <meta name="description" content=" electrical company that is located in Kwa-Zulu Natal, mainly specializes in Fault finding, Wiring and DB Installation">
+    <meta name="keywords" content="electrical companies, pietermaritzburg electricians, electrician near me, kzn electricians ">
+    <meta name="owner" content="S'bonelo Handsome Mzolo">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
+    <title>About Us</title>
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="images/Logo.jpg" alt="Card Image" width="60PX" height="60PX">
+            <BR>
+            <ul class="menu-links ">
+                <span id="close-menu-btn " class="material-symbols-outlined ">close</span>
+                <li><a href="index.html ">Home</a></li>
+                <li><a href="about.html ">About</a></li>
+                <li><a href="Our Services.html "> Our Services</a></li>
+                <li><a href="gallery.html ">Gallery</a></li>
+                <li><a href="contact.html ">Contact</a></li>
+            </ul>
+            <span id="hamburger-btn " class="material-symbols-outlined ">menu</span>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-us ">
+            <div class="about">
+                <div class="text ">
+                    <h2>About Us</h2>
+                    <p>Welcome to <strong>Boom Carlion Projects</strong>, your trusted electrical service provider serving the Mkhambathini and Pietermaritzburg areas since 2021. Founded by <strong>Sbonelo Mzolo</strong>, our company is committed to delivering
+                        high-quality electrical solutions tailored to meet the needs of both residential and commercial clients.</p> <br>
+                    <p>At Boom Carlion Projects, we specialize in a wide range of services, including fault finding, wiring, and distribution board (DB) installation. Our team of skilled electricians is dedicated to ensuring your safety and satisfaction
+                        through efficient and reliable workmanship. We pride ourselves on our attention to detail and commitment to using the latest technology and techniques in the electrical industry.</p><br>
+                    <p>As a locally owned and operated business, we understand the unique challenges faced by our community. We strive to build long-lasting relationships with our clients, ensuring that every project we undertake is completed on time and
+                        within budget. Our reputation for quality service and customer care has made us a preferred choice for many households and businesses in the region.</p>
+                    <p>Join us on our journey to illuminate your spaces with safety and style. </p>
+
+                    <p> <br> Contact us today for all your electrical needs! </p>
+                    <div class="data ">
+                        <br>
+                        <a href="contact.html " class="btn "> Contact Us </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Boom Carlion Projects(PTY) LTD All rights reserved.
+    </footer>
+
+    <script>
+        const header = document.querySelector("header ");
+        const hamburgerBtn = document.querySelector("#hamburger-btn ");
+        const closeMenuBtn = document.querySelector("#close-menu-btn ");
+
+        // Toggle mobile menu on hamburger button click
+        hamburgerBtn.addEventListener("click ", () => header.classList.toggle("show-mobile-menu "));
+
+        // Close mobile menu on close button click
+        closeMenuBtn.addEventListener("click ", () => hamburgerBtn.click());
+    </script>
+</body>
+
+</html>
